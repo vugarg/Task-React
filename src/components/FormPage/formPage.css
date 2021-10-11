@@ -1,0 +1,37 @@
+.DeleteButton {
+	color: crimson;
+	cursor: pointer;
+}
+
+.DeleteButton:hover {
+	color: rgb(236, 68, 101);
+	transform: scale(1.1);
+}
+
+.DeleteButton:active {
+	color: rgb(248, 132, 155);
+}
+
+.EditButton {
+	color: darkcyan;
+	cursor: pointer;
+}
+
+.EditButton:hover {
+	color: rgb(16, 161, 161);
+	transform: scale(1.1);
+}
+
+.EditButton:active {
+	color: rgb(118, 224, 224);
+}
+
+.ItemPageDisplay {
+	position: absolute;
+}
+
+.FormPageOverlay {
+	position: absolute;
+	width: 100%;
+	margin-top: 25%;
+}

@@ -1,0 +1,103 @@
+/* .ItemPage {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+} */
+
+.ItemPageWrapper {
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 1000px;
+	height: 400px;
+	box-shadow: 2px 3px 36px 28px rgba(220, 216, 216, 0.75);
+	-webkit-box-shadow: 2px 3px 36px 28px rgba(220, 216, 216, 0.75);
+	-moz-box-shadow: 2px 3px 36px 28px rgba(220, 216, 216, 0.75);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 10px;
+	padding: 75px;
+}
+
+.ItemPageWrapper label {
+	color: rgb(100, 100, 100);
+	font-weight: bold;
+}
+
+.ItemPageWrapper h1 {
+	position: relative;
+	bottom: 50px;
+	right: 50px;
+	font-size: 14px;
+	color: gray;
+	font-weight: bold;
+}
+
+.ItemPageWrapper h3 {
+	font-size: 24px;
+	margin: 50px 0;
+}
+
+.ItemPageLeft {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.ItemPageRight {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.ItemPageRight button {
+	position: relative;
+	top: 30px;
+	padding: 10px 20px;
+	font-size: 12px;
+	border: none;
+	width: 90%;
+	background-color: teal;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.ItemPageRight button:hover {
+	background-color: rgb(52, 146, 146);
+}
+.ItemPageRight button:active {
+	background-color: rgb(71, 167, 167);
+}
+
+.ItemPageInput {
+	padding: 10px 20px;
+	background-color: rgb(240, 240, 240);
+	border-radius: 3px;
+	border: none;
+	width: 90%;
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 10px;
+}
+
+.CloseButton {
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: red;
+	margin: 10px;
+	transform: scale(1.5);
+	cursor: pointer;
+}
+
+.CloseButton:hover {
+	color: tomato;
+	transform: scale(1.6);
+}
